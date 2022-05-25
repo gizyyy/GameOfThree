@@ -1,4 +1,4 @@
-# Game of Tree, What is it?
+# Game of Three, What is it?
 This is a web application implemented based on spring framework using websockets/STOMP protocol.
 
 The intention is to have multiple users connected as client, and server side notifications to the clients via websockets.

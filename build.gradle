@@ -24,6 +24,8 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testCompileOnly group: 'org.projectlombok', name:  'lombok'
+    testAnnotationProcessor group: 'org.projectlombok', name: 'lombok'
 }
 
 tasks.named('test') {
